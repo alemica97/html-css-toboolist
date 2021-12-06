@@ -123,6 +123,18 @@ main{
     background-color: #89D2C2;
 }
 
+.tasks-highlighted.orange{
+    background-color: #F29E33;
+}
+
+.tasks-highlighted.pink{
+    background-color: #D863A1;
+}
+
+.tasks-highlighted.lightgreen{
+    background-color: #B0C926;
+}
+
 .toboo{
     margin-bottom: 10px;
 }
