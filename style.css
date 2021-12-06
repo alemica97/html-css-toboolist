@@ -67,3 +67,28 @@ main{
     background-color: white;
     color: #D4D8DC;
 }
+
+.entities{
+    display: inline-block;
+}
+
+.tasks-title{
+    padding-top: 20px;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+h5{
+    display: inline-block;
+}
+
+.cerchio{
+    width: 16px;
+    height: 16px;
+    font-size: 10px;
+    color: #89D2C2;
+    border: 1px solid #89D2C2;
+    border-radius: 50%;
+    margin-left: 5px;
+    text-align: center;
+}
