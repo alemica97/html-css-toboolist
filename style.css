@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
 }
 
 body{
@@ -19,9 +19,12 @@ body{
     font-family: ;
 }
 
+.logo,.title{
+    vertical-align: text-bottom;
+}
+
 .logo,.title,.button,.entities,h5,.cerchio,.tasks-content,.tasks-highlighted{
     display: inline-block;
-    vertical-align: text-bottom;
 }
 
 header,nav,main{
@@ -54,13 +57,11 @@ main{
 }
 
 .button{
-    width: 100px;
-    height: 30px;
+    height: 28px;
     font-size: 12px;
     border-radius: 5px;
     margin-top: 15px;
     margin-bottom: 10px;
-    padding-top: 5px;
     text-align: center;
 }
 
@@ -77,6 +78,10 @@ main{
     border: 1.8px solid #D4D8DC;
     background-color: white;
     color: #D4D8DC;
+}
+
+.button,.tasks-highlighted{
+    padding: 6px;
 }
 
 #tasks-title{
@@ -112,7 +117,6 @@ main{
     color: white;
     border-radius: 10px;
     text-align: center;
-    padding: 6px;
 }
 
 .tasks-highlighted.blue{
