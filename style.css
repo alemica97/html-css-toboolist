@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #F6F8F9;
+    background-color: #f0f3f5;
 }
 
 .logo{
@@ -15,17 +15,20 @@ body{
 }
 
 .title{
-    height: 50px;
-    font-style: bold;  
+    font-size: 18px;
+    font-family: ;
 }
 
-.logo, .title{
+.logo,.title,.button,.entities,h5,.cerchio,.tasks-content,.tasks-highlighted{
     display: inline-block;
     vertical-align: text-bottom;
 }
 
-header{
+header,nav,main{
     background-color: white;
+}
+
+header{
     margin-bottom: 40px;
     padding-left: 30px;
     padding-top: 10px;
@@ -33,7 +36,6 @@ header{
 }
 
 main, nav{
-    background-color: white;
     width: 1000px;
     margin: auto;   
     padding-left: 50px;
@@ -48,17 +50,22 @@ nav{
 main{
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    padding-bottom: 40px;
 }
 
 .button{
     width: 100px;
     height: 30px;
-    font-size: 14px;
+    font-size: 12px;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 10px;
+    padding-top: 5px;
     text-align: center;
-    display: inline-block;
+}
+
+#tasks-title,.button,.toboo{
+    margin-bottom: 10px;
 }
 
 .button.blue{
@@ -73,13 +80,10 @@ main{
 }
 
 #tasks-title{
+    color: #444851;
     padding-top: 20px;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     font-size: 20px;
-}
-
-.entities, h5{
-    display: inline-block;
 }
 
 .cerchio{
@@ -100,10 +104,6 @@ main{
 .cerchio.croce{
     color: #EE7570;
     border-color: #EE7570;
-}
-
-.cerchio,.tasks-content,.tasks-highlighted{
-    display: inline-block;
 }
 
 .tasks-highlighted{
@@ -137,8 +137,4 @@ main{
 
 .tasks-highlighted.lightgreen{
     background-color: #B0C926;
-}
-
-.toboo{
-    margin-bottom: 10px;
 }
