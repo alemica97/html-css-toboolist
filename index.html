@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Toboolist</title>
 </head>
 <body>
     <!-- inserisco un logo ed un titolo all'header -->
@@ -20,6 +20,7 @@
             <h1>Tooboolist</h1>
         </div> 
     </header>
+    <!-- nel nav aggiungo due bottoni tramite due contenitori per poterli affiancare e gestirne le dimensioni -->
     <nav>
         <div class="button blue">
             <span class="button-text">Add Task</span>
@@ -29,12 +30,85 @@
         </div>
     </nav>
     <main>
-        <div class="tasks-title">
-            <span class="entities">&#8895;</span><h5>New Task</h5>
+        <!-- faccio un div per aggiungere la "freccetta" e il titolo della task da affiancare -->
+        
+        <!-- Creo tre div, uno per ogni singola task con i rispettivi elementi al loro interno -->
+        <div class="task">
+            <div id="tasks-title">
+                <span class="entities">&#8895;</span>
+                <h5>New Task</h5>
+            </div>
+            <div class="toboo">
+                <div class="cerchio spunta">
+                    <span>&#10004;</span>
+                </div>
+                <div class="tasks-content">
+                    <span>Quarterly Newsletter</span>
+                </div>
+                <div class="tasks-highlighted blue">
+                    <span>Editorial</span>
+                </div>
+            </div>      
         </div>
-        <div class="cerchio spunta">
-            <span>&#10004;</span>
+
+        <div class="task">
+            <div id="tasks-title">
+                <span class="entities">&#8895;</span>
+                <h5>Today</h5>
+            </div>
+            <div class="toboo">
+                <div class="cerchio spunta">
+                    <span>&#10004;</span>
+                </div>
+                <div class="tasks-content">
+                    <span>Recruiting blog post</span>
+                </div>
+                <div class="tasks-highlighted blue">
+                    <span>Editorial</span>
+                </div>
+            </div>
+            <div class="toboo">
+                <div class="cerchio spunta">
+                    <span>&#10004;</span>
+                </div>
+                <div class="tasks-content">
+                    <span>Mobile app launch</span>
+                </div>
+                <div class="tasks-highlighted purple">
+                    <span>Q1 Goals</span>
+                </div>
+            </div>
+            <div class="toboo">
+                <div class="cerchio croce">
+                    <span>&#10006;</span>
+                </div>
+                <div class="tasks-content">
+                    <span>Interview John H.</span>
+                </div>
+                <div class="tasks-highlighted green">
+                    <span>Recruiting</span>
+                </div>
+            </div>
+    
+            
         </div>
+
+        <div class="task">
+            <div id="tasks-title">
+                <span class="entities">&#8895;</span>
+                <h5>New Task</h5>
+            </div>
+            <div class="cerchio spunta">
+                <span>&#10004;</span>
+            </div>
+            <div class="tasks-content">
+                <span>Quarterly Newsletter</span>
+            </div>
+            <div class="tasks-highlighted blue">
+                <span>Editorial</span>
+            </div>
+        </div>
+        
     </main>
 </body>
 </html>
