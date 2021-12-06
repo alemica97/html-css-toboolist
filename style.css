@@ -12,20 +12,58 @@ body{
 .logo{
     width: 50px;
     height: 50px;
-    /* background-color: red; */
+}
+
+.title{
+    height: 50px;
+}
+
+.logo, .title{
     display: inline-block;
 }
 
 header{
-    width: 100%;
-    padding-left: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
     background-color: white;
+    margin-bottom: 40px;
+    
 }
 
-.title{
+main, nav{
+    background-color: white;
+    width: 1000px;
+    margin: auto;   
+    padding-left: 50px;
+}
+
+nav{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid #D4D8DC;
+}
+
+main{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.button{
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
     display: inline-block;
-    font-size: 22px;
-    width: 220px;
+}
+
+.button.blue{
+    background-color: #47ADF1;
+    color: white
+}
+
+.button.white{
+    border: 1.8px solid #D4D8DC;
+    background-color: white;
+    color: #D4D8DC;
 }
