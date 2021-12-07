@@ -58,6 +58,7 @@ main{
 .button{
     height: 28px;
     font-size: 12px;
+    font-weight: bold;
     border-radius: 5px;
     margin-top: 15px;
     margin-bottom: 10px;
@@ -70,12 +71,13 @@ main{
 }
 
 .button.blue{
+    border: 1px solid #47ADF1;
     background-color: #47ADF1;
     color: white
 }
 
 .button.white{
-    border: 1.8px solid #D4D8DC;
+    border: 1px solid #D4D8DC;
     background-color: white;
     color: #D4D8DC;
 }
@@ -119,6 +121,10 @@ main{
     text-align: center;
 }
 
+.cerchio,.tasks-content,.tasks-highlighted{
+    vertical-align: middle;
+}
+
 .tasks-highlighted.blue{
     background-color: #45ABEA;
 }
@@ -142,3 +148,4 @@ main{
 .tasks-highlighted.lightgreen{
     background-color: #B0C926;
 }
+
