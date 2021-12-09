@@ -44,14 +44,12 @@ main, nav{
 }
 
 nav{
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-radius: 5px 5px 0 0;
     border-bottom: 1px solid #D4D8DC;
 }
 
 main{
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-radius: 0 0 5px 5px;
     padding-bottom: 40px;
 }
 
@@ -66,7 +64,7 @@ main{
     vertical-align: middle;
 }
 
-#tasks-title,.button,.toboo{
+.tasks-title,.button,.toboo{
     margin-bottom: 10px;
 }
 
@@ -86,7 +84,7 @@ main{
     padding: 6px;
 }
 
-#tasks-title{
+.tasks-title{
     color: #444851;
     padding-top: 20px;
     margin-bottom: 10px;
@@ -114,7 +112,7 @@ main{
 }
 
 .tasks-highlighted{
-    height: 25px;
+    /* height: 25px; */
     font-size: 10px;
     color: white;
     border-radius: 10px;
